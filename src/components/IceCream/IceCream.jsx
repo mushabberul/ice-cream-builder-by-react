@@ -9,7 +9,7 @@ const IceCream = () => {
                 <p className={classes.cone}></p>
                 {/* <p>Please start adding scoops</p> */}
                 <Scoop />
-                <div className={className.cherry}></div>
+                <div className={classes.cherry}></div>
             </div>
         </div>
     );

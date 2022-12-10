@@ -2,8 +2,10 @@ import React from "react";
 import classes from "./Scoop.module.css";
 
 const Scoop = () => {
-    retrun(
-        <div class={[classes.scoop, classes.orange].join(' ')}></div >
+    return (
+        <div className={[classes.scoop, classes.orange].join(' ')}>
+
+        </div >
     );
 };
 
